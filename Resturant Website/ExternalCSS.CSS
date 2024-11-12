@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(medifoods.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-------------------------------------------HEADER-----------------------------------------*/
+#nav {
+    background-color: rgba(0, 0, 0, 0.842);
+    padding-bottom: 30px;
+    width: 100%;
+    height: 198px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    height: 5px;
+    box-shadow: 0 0 5px red,
+        0 0 25px pink, 0 0 50px greenyellow,
+        0 0 100px orange, 0 0 200px blue;
+    border-radius: 30px;
+    background-color: rgba(19, 0, 0, 0.4);
+    color: bisque;
+}
+
+#BT {
+    border: 2px white groove;
+}
+
+/*---------------------------------------FOR HOME PAGE-----------------------------------------*/
+.WO {
+    font-size: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    margin-top: 30px;
+}
+
+#AMR {
+    font-size: 55px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#OK {
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.OR {
+    margin-top: 7%;
+}
+
+#order {
+    border: 2px white solid;
+    font-size: 15px;
+    margin-left: 8%;
+
+}
+
+#table {
+    border: 2px red solid;
+    font-size: 15px;
+    background-color: red;
+    margin-left: 6%;
+}
+
+/*---------------------------------------FOR CATERING PAGE-------------------------------------- */
+.TH {
+    color: white;
+    font-size: 25px;
+    padding-right: 80px;
+}
+
+#div1 {
+    color: white;
+    font-size: 20px;
+}
+
+.heading {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+/* ----------------------------------------FOR ABOUT US PAGE------------------------------------ */
+
+.img {
+    margin-top: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 700px;
+    width: 500px;
+}
+
+#WC {
+    font-size: 40px;
+    margin-top: 20%;
+    margin-left: 50%;
+    color: red;
+}
+
+#simple {
+    font-size: 40px;
+    color: white;
+    font-family: 'Charm', handwriting;
+    margin-left: 50%;
+
+}
+
+#serve {
+    color: white;
+    font-size: 25px;
+    margin-left: 50%;
+}
+
+#culture {
+    color: white;
+    font-size: 25px;
+    margin-right: 50%;
+}
+
+#our {
+    font-size: 40px;
+    margin-right: 50%;
+    color: red;
+    margin-top: 9%;
+}
+
+/*------------------------------------FOR MENU PAGE------------------------------------------*/
+#UL {
+    color: white;
+    margin-left: 7%;
+    margin-top: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.gree {
+    list-style-type: square;
+}
+
+.SPimg {
+    height: 600px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+/*-------------------------------------- FOR CONTACT PAGE------------------------------------- */
+#info {
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(248, 154, 154);
+    margin-top: 9%;
+    margin-bottom: 4%;
+    font-size: 28px;
+    text-align: center;
+}
+
+#input {
+    border: 2px rgb(248, 154, 154) solid;
+    background-color: bisque;
+    height: 40px;
+    width: 400px;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+
+#button {
+    background-color: rgba(95, 4, 4, 0.4);
+    color: white;
+    height: 34px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#form {
+    margin-top: 4%;
+    color: white;
+    font-size: 27px;
+    margin-left: 35%;
+}
+
+.INP {
+    font-size: 20px;
+}
+
+#sub {
+    background-color: rgba(95, 4, 4, 0.4);
+    color: white;
+    height: 34px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 2%;
+    margin-left: 17%;
+}
+
+td:hover {
+    box-shadow: 0 0 5px bisque,
+        0 0 25px bisque,
+        0 0 50px bisque,
+        0 0 100px bisque,
+        0 0 200px bisque;
+    background-color: bisque;
+    color: black;
+    font-size: 24px;
+}
+
+button:hover {
+    box-shadow: 0 0 5px red,
+        0 0 25px pink, 0 0 50px greenyellow,
+        0 0 100px orange, 0 0 200px blue;
+}
+
+#con {
+    margin-top: 4%;
+    margin-left: 5%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#email {
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 7%;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+}
+
+/* --------------------------------------FOOTER----------------------------------------*/
+
+#icon {
+    border: 2px white groove;
+    border-radius: 30px;
+    height: 66px;
+    width: 89px;
+    align-self: center;
+    padding-top: 1%;
+    margin-left: 600px;
+    margin-top: 5%;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.842);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.hours {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+
+#After {
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.842);
+    padding-left: 33%;
+    padding-top: 3%;
+    color: white;
+}
